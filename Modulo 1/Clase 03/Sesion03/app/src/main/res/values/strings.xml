@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sesion03</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="saltar">Saltar de Pantalla</string>
+    <string name="ingrese_texto">Ingrese Texto</string>
+    <string name="ingrese_texto_dos">Ingrese Texto Dos</string>
+
+</resources>
