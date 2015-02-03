@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    >
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtApellidoPaterno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/apellido_paterno"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtApellidoMaterno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/apellido_materno"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edad"
+        android:inputType="number" />
+
+    <Spinner
+        android:id="@+id/spSexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/sexo"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <Button
+        android:id="@+id/btnGrabar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/grabar" />
+
+    <ListView
+        android:id="@+id/lvLista"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
