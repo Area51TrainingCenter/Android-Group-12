@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sesion27</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="API_KEY">AIzaSyBkP8gsCFSG5YeB5XCrUbeLli2hAsqHhks</string>
+</resources>
